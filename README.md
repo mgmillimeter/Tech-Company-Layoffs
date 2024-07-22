@@ -1,4 +1,4 @@
-# Data Cleaning and Exploratory Data Analysis (EDA) of Tech companies layoffs
+# Data Cleaning and Exploratory Data Analysis (EDA) of Tech Company Layoffs
 
 
 ## Table of Contents
