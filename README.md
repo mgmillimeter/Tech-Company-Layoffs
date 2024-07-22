@@ -81,27 +81,53 @@ The exploratory data analysis (EDA) on tech company layoffs reveals several key 
 1. Company Layoffs:
 
   - The top 10 companies with the highest layoffs include significant names in the tech industry.
+
+    ![Companies  Top 10  layoffs](https://github.com/user-attachments/assets/bd53ff9b-d077-46c5-8ce6-a6b0b725c16f)
+
   - Companies with the highest total layoffs predominantly belong to well-established tech firms.
   
 2. Industry Impact:
 
   - Top 10 Industries with the highest average layoff percentages.
+
+    ![Industry  top 10 Industry Layoff Rate](https://github.com/user-attachments/assets/5b791f1e-6825-48fb-8fce-50e5f1cbb72f)
+
   - The technology sector experienced varied impacts, with certain industries facing higher average layoff percentages.
     
   
 3. Geographical Distribution:
 
   - Layoffs were widespread across continents, with North America and Asia witnessing the highest numbers.
+
+    ![Geographical  total layoffs per continent](https://github.com/user-attachments/assets/1166d237-5619-460d-a3ac-17620ac47759)
+    ![Geographical  NA   Asia](https://github.com/user-attachments/assets/116347bd-d251-4cd5-8a8d-c91cbbd8b270)
+    ![Geographical  Europe](https://github.com/user-attachments/assets/2e595bc1-f783-4213-8f5a-b305de69c42e)
+    ![Geographical  SA-Oceania-Afr](https://github.com/user-attachments/assets/f4e99bc2-067e-4e4c-a20b-5add3231d524)
+    
   - Countries such as the United States, India, and Canada had the most substantial layoffs percentages.
 
 4. Time-Based Trends:
 
   - Layoffs peaked at certain times, with significant variations in layoff numbers across different years.
+    ![Time-Based  2020-1sthalf-2024](https://github.com/user-attachments/assets/ae762b21-6fb7-48ff-b9d6-89e20db03424)
+    ![Time-Based  Rolling](https://github.com/user-attachments/assets/0dc93f0e-1f25-4ade-af77-de7e8d9d6ad2)
+
+  - The rolling sum function calculates a cumulative total of layoffs over time. This cumulative or "rolling" total adds up the "Total Daily Layoff" figures month by month, showing the progressive increase in layoffs as time goes on.
   - The rolling sum analysis indicates trends and cumulative impacts over months.
 
 5. Company Stages:
 
   - Different company stages showed varying layoff patterns, with later-stage companies experiencing more layoffs compared to early-stage startups.
+
+    ![Screenshot 2024-07-22 202415](https://github.com/user-attachments/assets/63b22982-962e-4827-9e40-0c52aacf57b8)
+
+  - Post-IPO: Companies that have gone public, having completed their Initial Public Offering (IPO).
+  - Acquired: Companies that have been bought by another company.
+  - Series B, C, D, E, F, G, H, I, J: Various stages of venture capital funding, with Series A being the first major round of funding after seed funding, and subsequent series indicating later stages of funding.
+  - Private Equity: Companies that have received investments from private equity firms.
+  - Seed: Early stage funding for startups to develop their business ideas.
+  - Subsidiary: Companies that are controlled by a parent company.
+
   - These findings offer a comprehensive understanding of the layoffs' impact on the tech industry, highlighting trends and patterns across companies, industries, geographies, and time periods.
 
 
