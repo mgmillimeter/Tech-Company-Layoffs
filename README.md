@@ -18,7 +18,7 @@ This project analyzes tech company layoffs. It begins with cleaning the data by 
 
 ## Data Sources
 
-Original dataset can be tracked at https://layoffs.fyi/
+Original dataset can be tracked [here](https://layoffs.fyi/).
 
 Credits: Roger Lee
 
@@ -85,13 +85,14 @@ The exploratory data analysis (EDA) on tech company layoffs reveals several key 
   
 2. Industry Impact:
 
+  - Top 10 Industries with the highest average layoff percentages.
   - The technology sector experienced varied impacts, with certain industries facing higher average layoff percentages.
-  - Industries such as software and internet services had notably high layoff rates.
+    
   
 3. Geographical Distribution:
 
   - Layoffs were widespread across continents, with North America and Asia witnessing the highest numbers.
-  - Countries such as the United States, India, and Canada had the most substantial layoffs.
+  - Countries such as the United States, India, and Canada had the most substantial layoffs percentages.
 
 4. Time-Based Trends:
 
