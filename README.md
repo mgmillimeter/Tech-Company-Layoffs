@@ -11,6 +11,7 @@
 - [Results & Findings](#results--findings)
 - [Limitations](#limitations)
 - [Recommendations](#recommendations)
+- [References](#references)
 
 # Project Overview
 This project analyzes tech company layoffs. It begins with cleaning the data by removing duplicates, standardizing formats, handling missing values, and removing unnecessary columns. The cleaned data is then used for exploratory analysis to uncover trends and insights, providing a comprehensive understanding of layoffs in the tech industry.
@@ -179,5 +180,5 @@ The analysis is limited by incomplete data, which may lead to gaps in understand
 
 1. [SQL for Data Analysis by Cathy Tanimura](https://www.oreilly.com/library/view/sql-for-data/9781492088776/)
 2. [Alex The Analyst](https://github.com/AlexTheAnalyst)
-
+3. [Irene-arch](https://github.com/Irene-arch/Documenting_Example)
 
