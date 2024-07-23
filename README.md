@@ -8,6 +8,7 @@
 - [Data Cleaning Preparation](#data-cleaning-preparation)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Data Analysis](#data-analysis)
+- [Results & Findings](#results--findings)
 - [Limitations](#limitations)
 - [Recommendations](#recommendations)
 
@@ -73,7 +74,7 @@ FROM company_year_rank
 WHERE ranking <= 5;
 ```
 
-### Results/Findings
+### Results & Findings
 
 The exploratory data analysis (EDA) on tech company layoffs reveals several key insights:
 
