@@ -57,6 +57,9 @@ Company Layoffs Data: The primary dataset used for this analysis is the "layoffs
 (SQL Query Sample)
 Below is a query that identifies the top 5 companies with the most layoffs for each year,
 helping to highlight which companies were most affected by layoffs annually.
+
+You can view the whole SQL Script [here](https://github.com/mgmillimeter/Tech-Company-Layoffs/blob/main/sql_data_analysis_project-techcomapanies_layoffs.sql)
+    
 ```sql
 
 
