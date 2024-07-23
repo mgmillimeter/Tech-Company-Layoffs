@@ -138,7 +138,10 @@ The exploratory data analysis (EDA) on tech company layoffs reveals several key 
     ![2020](https://github.com/user-attachments/assets/ba352a9f-b3bc-4cdf-b066-c72e4a3e9985)
 
   - The rolling sum function calculates a cumulative total of layoffs over time. This cumulative or "rolling" total adds up the "Total Daily Layoff" figures month by month, showing the progressive increase in layoffs as time goes on.
-  - The rolling sum analysis indicates trends and cumulative impacts over months.
+
+    ![Time-Based  Rolling](https://github.com/user-attachments/assets/2e323417-be1b-43bf-a93a-e1b1bf082e2f)
+
+ - The rolling sum analysis indicates trends and cumulative impacts over months.
 
 5. Company Stages:
 
