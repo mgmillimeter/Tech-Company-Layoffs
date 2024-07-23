@@ -1,6 +1,5 @@
 # Data Cleaning and Exploratory Data Analysis (EDA) of Tech Company Layoffs
 
-
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -82,7 +81,7 @@ The exploratory data analysis (EDA) on tech company layoffs reveals several key 
 
   - The top 10 companies with the highest layoffs include significant names in the tech industry.
 
-    ![Companies  Top 10  layoffs](https://github.com/user-attachments/assets/bd53ff9b-d077-46c5-8ce6-a6b0b725c16f)
+    ![Companies  Top 10  layoffs](https://github.com/user-attachments/assets/d8b900af-72ad-428d-9677-eb5e8b67d9f2)
 
   - Companies with the highest total layoffs predominantly belong to well-established tech firms.
   
@@ -90,7 +89,7 @@ The exploratory data analysis (EDA) on tech company layoffs reveals several key 
 
   - Top 10 Industries with the highest average layoff percentages.
 
-    ![Industry  top 10 Industry Layoff Rate](https://github.com/user-attachments/assets/5b791f1e-6825-48fb-8fce-50e5f1cbb72f)
+    ![Industry  top 10 Industry Layoff Rate](https://github.com/user-attachments/assets/42e22338-d102-4e11-84dd-fcbec205666e)
 
   - The technology sector experienced varied impacts, with certain industries facing higher average layoff percentages.
     
@@ -98,19 +97,45 @@ The exploratory data analysis (EDA) on tech company layoffs reveals several key 
 3. Geographical Distribution:
 
   - Layoffs were widespread across continents, with North America and Asia witnessing the highest numbers.
-
-    ![Geographical  total layoffs per continent](https://github.com/user-attachments/assets/1166d237-5619-460d-a3ac-17620ac47759)
-    ![Geographical  NA   Asia](https://github.com/user-attachments/assets/116347bd-d251-4cd5-8a8d-c91cbbd8b270)
-    ![Geographical  Europe](https://github.com/user-attachments/assets/2e595bc1-f783-4213-8f5a-b305de69c42e)
-    ![Geographical  SA-Oceania-Afr](https://github.com/user-attachments/assets/f4e99bc2-067e-4e4c-a20b-5add3231d524)
+  - The Middle East was included in the continent chart to provide a more accurate and granular representation of the data, considering its significant and unique economic and geopolitical impact on global tech industry trends and layoffs.
     
-  - Countries such as the United States, India, and Canada had the most substantial layoffs percentages.
+    ![Geographical  total layoffs per continent](https://github.com/user-attachments/assets/7d49f123-0f6a-45c8-a8a1-344ee13b86a6)
+
+  - Charts showing the total number of layoffs per continent for each country
+    
+    ![NA](https://github.com/user-attachments/assets/38f2208b-023a-428c-a3de-6aa5053f01c7)
+    
+    ![ASIA](https://github.com/user-attachments/assets/0023d9d4-a724-4ad6-a38a-3b965caba97c)
+
+    ![EU](https://github.com/user-attachments/assets/d7975dda-afd2-49ed-88a5-d7b1e5fbeb78)
+
+    ![SA](https://github.com/user-attachments/assets/bb425c77-307f-4f78-989c-f1e50fa4d0c8)
+
+    ![OC](https://github.com/user-attachments/assets/8d7f9049-92f1-4583-932e-65348dc2139a)
+
+    ![AF](https://github.com/user-attachments/assets/a8268761-f0ab-4427-bd9e-ea83761fcee0)
+
+    ![OC](https://github.com/user-attachments/assets/76fdab97-880b-4e99-ac56-7105fd23c77c)
+
+    ![ME](https://github.com/user-attachments/assets/13297e01-522e-4c19-989b-950aa54d8a9e)
+
+  - Countries such as the United States and India had the most substantial layoffs percentages.
+
+    ![Pie](https://github.com/user-attachments/assets/8df487e7-0ad6-4699-883f-20d216f1d255)
 
 4. Time-Based Trends:
 
   - Layoffs peaked at certain times, with significant variations in layoff numbers across different years.
-    ![Time-Based  2020-1sthalf-2024](https://github.com/user-attachments/assets/ae762b21-6fb7-48ff-b9d6-89e20db03424)
-    ![Time-Based  Rolling](https://github.com/user-attachments/assets/0dc93f0e-1f25-4ade-af77-de7e8d9d6ad2)
+    
+    ![2024](https://github.com/user-attachments/assets/9ecd3063-e3fa-42ed-a5b2-581e0efa35e4)
+    
+    ![2023](https://github.com/user-attachments/assets/b361d4f5-8648-4ba9-bd4e-6ce311eca5c4)
+    
+    ![2022](https://github.com/user-attachments/assets/44092efb-9573-4dc0-a0dc-3f6ca0a83b96)
+    
+    ![2021](https://github.com/user-attachments/assets/62066bd2-7913-4ed3-832a-36c75ce3a5c6)
+    
+    ![2020](https://github.com/user-attachments/assets/ba352a9f-b3bc-4cdf-b066-c72e4a3e9985)
 
   - The rolling sum function calculates a cumulative total of layoffs over time. This cumulative or "rolling" total adds up the "Total Daily Layoff" figures month by month, showing the progressive increase in layoffs as time goes on.
   - The rolling sum analysis indicates trends and cumulative impacts over months.
@@ -119,7 +144,7 @@ The exploratory data analysis (EDA) on tech company layoffs reveals several key 
 
   - Different company stages showed varying layoff patterns, with later-stage companies experiencing more layoffs compared to early-stage startups.
 
-    ![Screenshot 2024-07-22 202415](https://github.com/user-attachments/assets/63b22982-962e-4827-9e40-0c52aacf57b8)
+    ![Screenshot 2024-07-22 202415](https://github.com/user-attachments/assets/2b12f4a2-5db1-461c-ac70-6d134d4bf368)
 
   - Post-IPO: Companies that have gone public, having completed their Initial Public Offering (IPO).
   - Acquired: Companies that have been bought by another company.
