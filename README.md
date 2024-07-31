@@ -19,22 +19,34 @@ This project analyzes tech company layoffs. It begins with cleaning the data by 
 
 ## Data Sources
 
-Original dataset can be tracked [here](https://layoffs.fyi/).
+Original dataset can be tracked _[here](https://layoffs.fyi/)._
 
-Credits: Roger Lee
+Credits: _Roger Lee_
 
 Company Layoffs Data: The primary dataset used for this analysis is the "layoffs_data.csv", which contains detailed information about each layoff made by various tech companies.
 
-
+Dataset columnn definition:
+- _company_: The name of the company that has announced layoffs.
+- _location_: The city or region where the layoffs are taking place.
+- _industry_: The industry sector in which the company operates (e.g., Food, Finance, Crypto).
+- _layoff_count_: The number of employees laid off in the announcement.
+- _date_: The date of the layoff announcement.
+- _source_: The URL of the source reporting the layoff news.
+- _funds_raised_millions_: The amount of funds the company has raised, in millions of dollars.
+- _stage_: The business stage of the company (e.g., Unknown, Post-IPO).
+- _date_added_: The date and time when the layoff information was added to the dataset.
+- _country_: The country where the layoffs are occurring.
+- _layoff_percentage_: The percentage of the workforce being laid off.
+- _employees_layoff_list_: A list of employees affected by the layoffs.
 
 ### Tools
 
 - Excel - Dataset Medium
-    - [Download here](https://www.microsoft.com/en-us/microsoft-365/excel)
+    - _[Download here](https://www.microsoft.com/en-us/microsoft-365/excel)_
 - SQL Server (MySQL) - Data Cleaning & EDA
-    - [Download here](https://www.mysql.com/downloads/)
+    - _[Download here](https://www.mysql.com/downloads/)_
 - Tableau - Creating Reports
-    - [Download here](https://www.tableau.com/products/desktop/download)
+    - _[Download here](https://www.tableau.com/products/desktop/download)_
 
 
 ### Data Cleaning Preparation
@@ -82,31 +94,32 @@ WHERE ranking <= 5;
 
 The exploratory data analysis (EDA) on tech company layoffs reveals several key insights:
 
-1. Company Layoffs:
 
-  - The top 10 companies with the highest layoffs include significant names in the tech industry.
+1. __Company Layoffs__:
+
+  - _The top 10 companies with the highest layoffs include significant names in the tech industry._
 
     ![Companies  Top 10  layoffs](https://github.com/user-attachments/assets/d8b900af-72ad-428d-9677-eb5e8b67d9f2)
 
   - Companies with the highest total layoffs predominantly belong to well-established tech firms.
   
-2. Industry Impact:
+2. __Industry Impact__:
 
-  - Top 10 Industries with the highest average layoff percentages.
+  - _Top 10 Industries with the highest average layoff percentages_.
 
     ![Industry  top 10 Industry Layoff Rate](https://github.com/user-attachments/assets/42e22338-d102-4e11-84dd-fcbec205666e)
 
-  - The technology sector experienced varied impacts, with certain industries facing higher average layoff percentages.
+  - _The technology sector experienced varied impacts, with certain industries facing higher average layoff percentages._
     
   
-3. Geographical Distribution:
+3. __Geographical Distribution:__
 
-  - Layoffs were widespread across continents, with North America and Asia witnessing the highest numbers.
-  - The Middle East was included in the continent chart to provide a more accurate and granular representation of the data, considering its significant and unique economic and geopolitical impact on global tech industry trends and layoffs.
+  - _Layoffs were widespread across continents, with North America and Asia witnessing the highest numbers._
+  - _The Middle East was included in the continent chart to provide a more accurate and granular representation of the data, considering its significant and unique economic and geopolitical impact on global tech industry trends and layoffs._
     
     ![Geographical  total layoffs per continent](https://github.com/user-attachments/assets/7d49f123-0f6a-45c8-a8a1-344ee13b86a6)
 
-  - Charts showing the total number of layoffs per continent for each country
+  - _Charts showing the total number of layoffs per continent for each country_
     
     ![NA](https://github.com/user-attachments/assets/38f2208b-023a-428c-a3de-6aa5053f01c7)
     
@@ -124,13 +137,13 @@ The exploratory data analysis (EDA) on tech company layoffs reveals several key 
 
     ![ME](https://github.com/user-attachments/assets/13297e01-522e-4c19-989b-950aa54d8a9e)
 
-  - Countries such as the United States and India had the most substantial layoffs percentages.
+  - _Countries such as the United States and India had the most substantial layoffs percentages._
 
     ![Pie](https://github.com/user-attachments/assets/8df487e7-0ad6-4699-883f-20d216f1d255)
 
-4. Time-Based Trends:
+4. __Time-Based Trends:__
 
-  - Layoffs peaked at certain times, with significant variations in layoff numbers across different years.
+  - _Layoffs peaked at certain times, with significant variations in layoff numbers across different years._
     
     ![2024](https://github.com/user-attachments/assets/9ecd3063-e3fa-42ed-a5b2-581e0efa35e4)
     
@@ -142,35 +155,35 @@ The exploratory data analysis (EDA) on tech company layoffs reveals several key 
     
     ![2020](https://github.com/user-attachments/assets/ba352a9f-b3bc-4cdf-b066-c72e4a3e9985)
 
-  - The rolling sum function calculates a cumulative total of layoffs over time. This cumulative or "rolling" total adds up the "Total Daily Layoff" figures month by month, showing the progressive increase in layoffs as time goes on.
+  - _The rolling sum function calculates a cumulative total of layoffs over time. This cumulative or "rolling" total adds up the "Total Daily Layoff" figures month by month, showing the progressive increase in layoffs as time goes on._
 
     ![Time-Based  Rolling](https://github.com/user-attachments/assets/2e323417-be1b-43bf-a93a-e1b1bf082e2f)
 
- - The rolling sum analysis indicates trends and cumulative impacts over months.
+ - _The rolling sum analysis indicates trends and cumulative impacts over months._
 
-5. Company Stages:
+5. __Company Stages:__
 
-  - Different company stages showed varying layoff patterns, with later-stage companies experiencing more layoffs compared to early-stage startups.
+  - _Different company stages showed varying layoff patterns, with later-stage companies experiencing more layoffs compared to early-stage startups._
 
     ![Screenshot 2024-07-22 202415](https://github.com/user-attachments/assets/2b12f4a2-5db1-461c-ac70-6d134d4bf368)
 
-  - Post-IPO: Companies that have gone public, having completed their Initial Public Offering (IPO).
-  - Acquired: Companies that have been bought by another company.
-  - Series B, C, D, E, F, G, H, I, J: Various stages of venture capital funding, with Series A being the first major round of funding after seed funding, and subsequent series indicating later stages of funding.
-  - Private Equity: Companies that have received investments from private equity firms.
-  - Seed: Early stage funding for startups to develop their business ideas.
-  - Subsidiary: Companies that are controlled by a parent company.
+  - _Post-IPO_: Companies that have gone public, having completed their Initial Public Offering (IPO).
+  - _Acquired_: Companies that have been bought by another company.
+  - _Series B, C, D, E, F, G, H, I, J_: Various stages of venture capital funding, with Series A being the first major round of funding after seed funding, and subsequent series indicating later stages of funding.
+  - _Private Equity_: Companies that have received investments from private equity firms.
+  - _Seed_: Early stage funding for startups to develop their business ideas.
+  - _Subsidiary_: Companies that are controlled by a parent company.
 
-  - These findings offer a comprehensive understanding of the layoffs' impact on the tech industry, highlighting trends and patterns across companies, industries, geographies, and time periods.
+  - _These findings offer a comprehensive understanding of the layoffs' impact on the tech industry, highlighting trends and patterns across companies, industries, geographies, and time periods._
 
 
 ### Recommendations
 
-1. Diversify Revenue Streams:
+1. __Diversify Revenue Streams__:
    - Explore and develop multiple sources of income to lessen reliance on a single market or product.
-2. Invest in Employee Skills:
+2. __Invest in Employee Skills__:
    - Provide training and upskilling to help employees adapt to new technologies and stay valuable.
-3. Improve Operational Efficiency:
+3. __Improve Operational Efficiency__:
    - Streamline processes and reduce unnecessary costs to enhance overall efficiency without needing layoffs.
 
 ### Limitations
@@ -178,7 +191,7 @@ The analysis is limited by incomplete data, which may lead to gaps in understand
 
 ### References
 
-1. [SQL for Data Analysis by Cathy Tanimura](https://www.oreilly.com/library/view/sql-for-data/9781492088776/)
-2. [Alex The Analyst](https://github.com/AlexTheAnalyst)
-3. [Irene-arch](https://github.com/Irene-arch/Documenting_Example)
+1. _[SQL for Data Analysis by Cathy Tanimura](https://www.oreilly.com/library/view/sql-for-data/9781492088776/)_
+2. _[Alex The Analyst](https://github.com/AlexTheAnalyst)_
+3. _[Irene-arch](https://github.com/Irene-arch/Documenting_Example)_
 
