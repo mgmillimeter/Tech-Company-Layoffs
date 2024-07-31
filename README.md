@@ -71,7 +71,7 @@ Dataset columnn definition:
 Below is a query that identifies the top 5 companies with the most layoffs for each year,
 helping to highlight which companies were most affected by layoffs annually.
 
-You can view the whole SQL Script [here](https://github.com/mgmillimeter/Tech-Company-Layoffs/blob/main/sql_data_analysis_project-techcomapanies_layoffs.sql)
+__You can view the whole process of SQL Data Cleaning and Exploratory Data Analysis (EDA) Script__ _[here](https://github.com/mgmillimeter/Tech-Company-Layoffs/blob/main/sql_data_analysis_project-techcomapanies_layoffs.sql)_
     
 ```sql
 
